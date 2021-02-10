@@ -146,3 +146,57 @@ footer {
 .filter div {
   flex: 1;
 }
+
+/*Cart section*/
+.cart {
+  /* align-items: center; */
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.cart-header {
+  border-bottom: #203040 0.1rem solid;
+}
+
+.cart-item {
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+.cart-item img {
+  width: 5rem;
+}
+
+.cart-item li {
+  display: flex;
+}
+
+.cart-item li div {
+  padding: 0.5rem;
+}
+
+.cart-item li div:last-child {
+  flex: 1;
+}
+
+.right {
+  align-items: right;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.total > div {
+  font-size: 2rem;
+}
+
+.total > div,
+.total > button {
+  flex: 1;
+}
